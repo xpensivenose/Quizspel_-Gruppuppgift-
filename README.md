@@ -4,7 +4,7 @@
     git commit -m "text"
     git push
 
-    andra gången 
+# Andra gången 
 git add.
 git commit -m "--"
 git push
