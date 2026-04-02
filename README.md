@@ -5,6 +5,6 @@
     git push
 
 # Andra gången 
-git add.
-git commit -m "--"
-git push
+    git add.
+    git commit -m "--"
+    git push
