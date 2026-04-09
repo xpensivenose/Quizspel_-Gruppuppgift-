@@ -2,6 +2,7 @@ const questionElement = document.getElementById("question-text");
 const optionsContainer = document.getElementById("options-container");
 const progressElement = document.getElementById("progress");
 const scoreElement = document.getElementById("score");
+const closeBtn = document.getElementById("reset-button");
 const container = document.querySelector(".div1"); 
 
 let currentQuestionIndex = 0;
@@ -113,4 +114,17 @@ function showResult() {
     scoreElement.textContent = `Du fick ${score} av ${questions.length} rätt!`;
 }
 
+
+closeBtn.addEventListener ("click", function () {
+    
+    score = 0;
+    currentQuestionIndex = 0;
+    scoreElement.textContent = "";
+    closeBtn.style.display = "none";
+    showQuestion();
+
+});
+
+    
 showQuestion();
+
