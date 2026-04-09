@@ -2,6 +2,7 @@ const questionElement = document.getElementById("question-text");
 const optionsContainer = document.getElementById("options-container");
 const progressElement = document.getElementById("progress");
 const scoreElement = document.getElementById("score");
+const container = document.querySelector(".div1"); 
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -75,6 +76,10 @@ function showQuestion() {
 
         optionsContainer.appendChild(btn);
     });
+    
+    container.classList.remove("slide");
+    void container.offsetWidth;
+    container.classList.add("slide"); 
 }
 
 function handleAnswer(selectedIndex) {
