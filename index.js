@@ -97,6 +97,8 @@ function handleAnswer(selectedIndex) {
         buttons[q.correct].style.backgroundColor = "green";
     }
 
+     scoreElement.textContent = `Poäng: ${score}`;
+
     setTimeout(() => {
         currentQuestionIndex++;
         if (currentQuestionIndex < questions.length) {
