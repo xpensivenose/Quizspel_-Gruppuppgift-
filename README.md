@@ -23,3 +23,10 @@ Alternativ 2
 Buggar
 
 Efter man trycker på "Starta om quiz" visas inte poängen direkt vid start (visas efter första svar)
+
+## Grupp
+
+Albin Dyrenäs  
+Fatima Kanbar
+Setareh Adabi
+
