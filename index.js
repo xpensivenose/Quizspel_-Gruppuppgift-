@@ -108,9 +108,10 @@ function handleAnswer(selectedIndex) {
         }
     }, 1000);
 }
-//denna koden 
+
 function showResult() {
     questionElement.textContent = "Quizet är slut!";
+    closeBtn.style.display = "block";
     optionsContainer.innerHTML = "";
     progressElement.textContent = "";
     scoreElement.textContent = `Du fick ${score} av ${questions.length} rätt!`;
