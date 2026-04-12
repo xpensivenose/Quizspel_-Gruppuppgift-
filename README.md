@@ -26,7 +26,5 @@ Efter man trycker på "Starta om quiz" visas inte poängen direkt vid start (vis
 
 ## Grupp
 
-Albin Dyrenäs  
-Fatima Kanbar
-Setareh Adabi
+Albin Dyrenäs, Fatima Kanbar, Setareh Adabi
 
